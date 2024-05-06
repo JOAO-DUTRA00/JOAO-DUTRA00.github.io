@@ -1,0 +1,52 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bs-text-color:#5CE1E6;
+    --bs-text-color2 : #eeff00;
+}
+body{
+    background-color: var(--bs-dark);
+    font-family: "Oswald", sans-serif;
+
+  
+}
+
+/*card*/
+
+.card-body h1{
+    font-size: 1.50rem;
+    color: #fc3301;
+  } 
+  .card {
+    height: 100%;
+  }
+
+/*fale conosco - forms*/
+.contact-form-container {
+    max-width: 100%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  .submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .submit:hover {
+    background-color: #0056b3;
+  }
+  /*fale conosco - forms*/
